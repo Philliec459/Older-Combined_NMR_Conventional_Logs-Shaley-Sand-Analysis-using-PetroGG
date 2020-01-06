@@ -10,9 +10,9 @@ For Dual-Water we are using the George Coates (1) MRIAN method that was primaril
 
 In this example we are using NMR data from the older Numar tool that was only capable of measuring a NMR effective porosity (MPHI) and NMR Bulk Volume Irreducible (MBVI) in the effective porosity system. This tool did not have the capability at this point to employ the PR06 activation for the determination of the volume of Clay Bound Water (CBW).
 
-MBVI is calculated from the NMR T2 distribution by partitioning this T2 distribution into MBVI and Free Fluid (FFI). FFI pore volume has larger pores with movable fluid where MBVI has smaller pores with non-movable fluids. This partition point is called the T2 Cutoff and for this clastic well the T2 Cutoff was 33ms. We typically compare our log analysis based Bulk Volume Water in the effective porosity system (BVWe) to MBVI, in the effective porosity system, to determine what intervals have hydrocarbon saturations at irreducible water saturation with no movable water. When BVWe is higher than MBVI, then we expect some movable water depending on the relative permeability of these fluids.
-
 ![NMR_Image](NMR.png)
+
+MBVI is calculated from the NMR T2 distribution by partitioning this T2 distribution into MBVI and Free Fluid (FFI). FFI pore volume has larger pores with movable fluid where MBVI has smaller pores with non-movable fluids. This partition point is called the T2 Cutoff and for this clastic well the T2 Cutoff was 33ms. We typically compare our log analysis based Bulk Volume Water in the effective porosity system (BVWe) to MBVI, in the effective porosity system, to determine what intervals have hydrocarbon saturations at irreducible water saturation with no movable water. When BVWe is higher than MBVI, then we expect some movable water depending on the relative permeability of these fluids. This movable water can be seen in the depth plot below 4610' where the Waxman-Smits Bulk Volume Water (WSCBVWE) is greather than MBVI shown as the dark blue fill and the shading then becomes cyan in color. This cyan fill is the bulk volume movable water calculated from our log analysis.
 
 For our Waxman-Smits saturation model we use the Hill, Shirley and Klein technique(2) to solve for Qv from Swb as shown below:
 
