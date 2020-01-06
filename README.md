@@ -14,7 +14,7 @@ In this example we are using NMR data from the older Numar tool that was only ca
 
 MBVI is calculated from the NMR T2 distribution by partitioning this T2 distribution into MBVI and Free Fluid (FFI). FFI pore volume has larger pores with movable fluid where MBVI has smaller pores with non-movable fluids. This partition point is called the T2 Cutoff and for this clastic well the T2 Cutoff was 33ms. We typically compare our log analysis based Bulk Volume Water in the effective porosity system (BVWe) to MBVI, in the effective porosity system, to determine what intervals have hydrocarbon saturations at irreducible water saturation with no movable water. When BVWe is higher than MBVI, then we expect some movable water depending on the relative permeability of these fluids. 
 
-This movable water can be seen in the depth plot below. From a depth of 4610' and below the Waxman-Smits Bulk Volume Water (WSCBVWE) is greather than the NMR MBVI (shown as the dark blue fill) and the shading then becomes cyan in color. This cyan fill is where the bulk volume movable water calculated from our log analysis is greater than MBVI. 
+This movable water can be seen in the depth plot below. From a depth of 4610' and below the Waxman-Smits Bulk Volume Water (WSCBVWE) is greather than the NMR MBVI (shown as the dark blue fill) and the shading then becomes cyan in color. This cyan fill is where the bulk volume movable water calculated from our log analysis is greater than MBVI and we would expect movable water. Above 4610' the WSCBVWE is at MBVI with no apparent movable water. Above 4610' we would expect water-free hydrocarbon production. 
 
 For our Waxman-Smits saturation model we use the Hill, Shirley and Klein technique(2) to solve for Qv from Swb as shown below:
 
