@@ -275,7 +275,19 @@ def triple_combo_plot(top_depth,bottom_depth):
     ax23.spines['top'].set_position(('outward',80))
     ax23.set_xlabel('RHOB[g/cc]',color='red')
     ax23.tick_params(axis='x', colors='red') 
+
+    ax24=ax[2].twiny()
+    ax24.set_xlim(-0.15,0.45)
+    ax24.invert_xaxis()
+    ax24.plot(logs.PHIX, logs.DEPT, label='PHIX[v/v]', color='cyan') 
+    ax24.spines['top'].set_position(('outward',120))
+    ax24.set_xlabel('PHIX[v/v]', color='cyan')    
+    ax24.tick_params(axis='x', colors='cyan')
+
     #plt.savefig ('triple_combo_plot.png', dpi=200, format='png')
+
+
+
 
     #4th track: NMR
     ax31=ax[3].twiny()
