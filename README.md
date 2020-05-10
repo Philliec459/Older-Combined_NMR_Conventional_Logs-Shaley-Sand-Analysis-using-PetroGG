@@ -1,4 +1,4 @@
-# Basic-Well-Log-Interpretation-using-PetroGG-adapted-to-Gulf-Coast-Shaley-Sand-Analysis-using-NMR-and-Conventional-Logs
+# Basic-Well-Log-Interpretation-using-PetroGG-Adapted-to-Gulf-Coast-Shaley-Sand-Example-using-NMR-and-Conventional-Logs
 
 This repository started with PetroGG written by Mihai in GitHub that has been modified to be used with our Gulf of Mexico NMR shaly-sand data. These data are in the NMR.txt text file provided. PetroGG provides for an excellent foundation for our work. We appreciate all the fine work of Mihai on PetroGG and the suitability of his code to be expanded upon for this application of PetroGG.
 
